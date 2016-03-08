@@ -81,7 +81,7 @@ app.post('/', function(req, response) {
         return;
     }
     request({
-        url: https://hooks.slack.com/services/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,
+        url: process.env.POSTBACK_URL=https://hooks.slack.com/services/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,
         json: payloadOption,
         method: 'POST'
     }, function (error) {
